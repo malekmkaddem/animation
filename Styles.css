@@ -1,0 +1,93 @@
+/* Malek Mkaddem */
+body {
+    background-color:cadetblue; 
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30pt;
+    text-align: center;
+    font-family: arial;
+  animation-name: /*1SwitchColor;*/
+    color: aquamarine;
+  animation-duration: 4s;
+}   
+@keyframes h1SwitchColor {
+    from 
+    { color: blueviolet;}
+  to {color: red;}
+
+}
+
+h2{
+    font-weight: bold;
+    font-size: 22pt;
+    text-align: center;
+    font-family: arial;
+     
+}
+
+
+h3{
+    font-weight: bold;
+   font-size: 22pt;
+    text-align: center;
+    font-family: arial;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+.imag { 
+   width: 300px;
+    height: auto;
+  
+    
+}
+.intro {
+   font-size: 18pt;
+    font-family: arial;
+    
+    
+}
+.reason{
+    font-size: 18pt;
+      font-family: arial;
+    text-align: justify;
+}
+
+    
+.list{
+    font-size: 16pt;
+    font-family: arial;
+    text-align: center;
+    list-style-position:inside;
+   
+}
+
+.link{
+  
+    font-size: 16pt;
+    text-align: justify;
+    font-family: arial;
+    
+}
+button {
+    
+    
+
+  border-radius: 2em;
+    border-color: mediumpurple;
+    font-family: fantasy;
+  color: mediumpurple;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+color{
+     'background-color': radial-gradient(red 5%, turquoise 15%, pink 60%),
+}
